@@ -1,0 +1,64 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.multi-select-comp {
+  min-width: 240px;
+}
+
+/* Box style */
+.multi-select-comp-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  border: 1px solid gray;
+}
+
+.multi-select-comp-container .multi-select-comp-label {
+  display: block;
+  color: grey;
+}
+
+.multi-select-comp-container .multi-select-comp-selected {
+  display: block;
+}
+
+.multi-select-comp-container .multi-select-comp-arrow {
+  justify-self: flex-end;
+  border: solid lightgray;
+  border-width: 0px 2px 2px 0px;
+  padding: 4px;
+  display: inline-block;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Inside Options Container */
+.multi-select-comp-options-container {
+  padding: 6px;
+}
+
+.multi-select-comp-options-container .multi-select-comp-label-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.multi-select-comp-options-container .multi-select-comp-selected-label {
+  font-weight: bold;
+}
+
+.multi-select-comp-options-container .multi-select-comp-options-separator {
+  border: solid gray;
+  border-width: 0px 0px 1px 0px;
+}
+
+.multi-select-comp-options-container .multi-select-comp-option {
+  padding: 8px 4px 8px 0px;
+}
+
+.multi-select-comp-options-container .multi-select-comp-option-input {
+  margin-right: 8px;
+}
