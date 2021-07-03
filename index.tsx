@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
-import Multiselect from "./Multiselect";
-import "./style.css";
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Multiselect from './Multiselect';
+import './style.css';
 
 interface AppProps {}
 interface AppState {
@@ -10,43 +10,43 @@ interface AppState {
 
 const options = [
   {
-    label: "Sale",
-    value: "sale",
+    label: 'Royal Challengers Bangalore',
+    value: 'rcb',
     selected: false
   },
   {
-    label: "Refund",
-    value: "refund",
+    label: 'Kings XI Punjab',
+    value: 'kxip',
     selected: false
   },
   {
-    label: "Chargeback",
-    value: "chargeback",
+    label: 'Rajasthan Royals',
+    value: 'rr',
     selected: false
   },
   {
-    label: "Chargeback Reversal",
-    value: "chargebackreversal",
+    label: 'Delhi Capitals',
+    value: 'dc',
     selected: false
   },
   {
-    label: "Add funds",
-    value: "addfunds",
+    label: 'Kolkata Knight Riders',
+    value: 'kkr',
     selected: false
   },
   {
-    label: "Adjustments",
-    value: "adjustments",
+    label: 'Sunrisers Hyderabad',
+    value: 'srh',
     selected: false
   },
   {
-    label: "Bonus",
-    value: "bonus",
+    label: 'Mumbai Indians',
+    value: 'mi',
     selected: false
   },
   {
-    label: "Payouts",
-    value: "payouts",
+    label: 'Chennai Super Kings',
+    value: 'csk',
     selected: false
   }
 ];
@@ -55,7 +55,7 @@ class App extends Component<AppProps, AppState> {
   constructor(props) {
     super(props);
     this.state = {
-      name: "React"
+      name: 'React'
     };
   }
 
@@ -77,4 +77,4 @@ class App extends Component<AppProps, AppState> {
   }
 }
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));

@@ -38,6 +38,8 @@ p {
 /* Inside Options Container */
 .multi-select-comp-options-container {
   padding: 6px;
+  background-color: #fffff0;
+  border: 1px solid black;
 }
 
 .multi-select-comp-options-container .multi-select-comp-label-container {
